@@ -230,6 +230,33 @@ button {
         }
     }
     /* Username, Lock and Signout */
+
+    /* Menu */
+    #menu {
+        padding: 20px;
+        padding-top: 60px;
+        padding-left: 40px;
+        a {
+            color: #ddd;
+            font-family: montserrat;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            margin-bottom: 40px;
+            transition: all 0.3s ease;
+            &:hover {
+                color: #fff;
+            }
+            svg {
+                margin-right: 15px;
+                font-size: 14px;
+            }
+        }
+    }
+    /* Menu */
 }
 /* Manager LHS */
 
