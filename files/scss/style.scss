@@ -169,6 +169,67 @@ button {
         // Register
     }
     /* Logo and Register Top Div */
+
+
+    /* Username, Lock and Signout */
+    #username_signout {
+        color: #B9B9B9;
+        border-top: 1px solid #5D5D5D;
+        border-bottom: 1px solid #5D5D5D;
+        font-size: 14px;
+
+        //padding: 0px;
+        //padding-left: 30px;
+        
+        & > .row > div {
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        #username {
+            border-right: 1px solid #5D5D5D;
+            padding-left: 30px;
+            font-size: 13px;
+            font-family: montserrat;
+            //padding-left: 30px;
+
+            svg {
+                margin-left: 8px;
+                font-size: 16px;
+            }
+        }
+
+        #lock {
+            border-right: 1px solid #5D5D5D;
+            font-size: 9px;
+            font-weight: 500;
+            font-family: montserrat;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            svg {
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+        }
+
+        #sign_out {
+            svg {
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+    /* Username, Lock and Signout */
 }
 /* Manager LHS */
 
