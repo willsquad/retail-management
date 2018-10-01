@@ -115,6 +115,60 @@ button {
     background-color: #2C2F48;
     height: 100vh;
     position: fixed;
+    padding: 0px;
+
+    /* Logo and Register Top Div */
+    #logo_top_div {
+        padding: 25px;
+        padding-left: 30px;
+       
+        img {
+            width: 180px;
+        }
+
+        //Register
+        #store_register {
+            margin-top: 10px;
+
+            //Register <ul>
+            #register_ul {
+                color: #ddd;
+                padding-left: 30px;
+                font-size: 14px;
+                font-weight: 600;
+                list-style: none;
+                margin-bottom: 0px;
+
+                //Register <li>
+                & > li::before {
+                    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                    color: #FC4D36; /* Change the color */
+                    font-weight: bold; /* If you want it to be bold */
+                    display: inline-block; /* Needed to add space between the bullet and the text */ 
+                    width: .75em; /* Also needed for space (tweak if needed) */
+                    margin-left: -1.5em; /* Also needed for space (tweak if needed) */  
+                }
+
+                //Register <li>
+                & > li {
+                    a {
+                        color: #ddd;
+                        text-decoration: none;
+                    }
+                }
+
+                //Register icon
+                .svg-inline--fa {
+                    margin-left: 5px;
+                    position: relative;
+                    top:2px;
+                }
+            }
+            // Register <ul>
+        }
+        // Register
+    }
+    /* Logo and Register Top Div */
 }
 /* Manager LHS */
 
