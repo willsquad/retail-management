@@ -116,6 +116,15 @@ button {
     height: 100vh;
     position: fixed;
     padding: 0px;
+    width: 25%;
+    max-width: 325px;
+    min-width: 325px;
+
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+        max-width: 100%;
+        min-width: 325px;
+    }
 
     /* Logo and Register Top Div */
     #logo_top_div {
@@ -312,5 +321,12 @@ button {
 /* Manager RHS */
 .manager_rhs {
     min-height: 100vh;
+    width: 75%;
+    margin-left: 325px;
+
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+        margin-left: 0px;
+    }
 }
 /* Manager RHS */
