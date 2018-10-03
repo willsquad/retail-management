@@ -127,7 +127,7 @@ button {
     }
 
     /* Logo and Register Top Div */
-    #logo_top_div {
+    .logo_top_div {
         padding: 25px;
         padding-left: 30px;
        
@@ -136,11 +136,11 @@ button {
         }
 
         //Register
-        #store_register {
+        .store_register {
             margin-top: 10px;
 
             //Register <ul>
-            #register_ul {
+            .register_ul {
                 color: #ddd;
                 padding-left: 30px;
                 font-size: 14px;
@@ -181,7 +181,7 @@ button {
 
 
     /* Username, Lock and Signout */
-    #username_signout {
+    .username_signout {
         color: #B9B9B9;
         border-top: 1px solid #5D5D5D;
         border-bottom: 1px solid #5D5D5D;
@@ -204,7 +204,7 @@ button {
             }
         }
 
-        #username {
+        .username {
             border-right: 1px solid #5D5D5D;
             padding-left: 30px;
             font-size: 13px;
@@ -217,7 +217,7 @@ button {
             }
         }
 
-        #lock {
+        .lock {
             border-right: 1px solid #5D5D5D;
             font-size: 9px;
             font-weight: 500;
@@ -231,7 +231,7 @@ button {
             }
         }
 
-        #sign_out {
+        .sign_out {
             svg {
                 font-size: 20px;
                 cursor: pointer;
@@ -241,7 +241,7 @@ button {
     /* Username, Lock and Signout */
 
     /* Menu */
-    #menu {
+    .menu {
         padding: 20px;
         padding-top: 60px;
         padding-left: 40px;
@@ -268,7 +268,7 @@ button {
     /* Menu */
 
     /* Submit */
-    #support {
+    .support {
         color: #fff;
         position: absolute;
         bottom: 0px;
@@ -315,18 +315,45 @@ button {
         }
     }
     /* Submit */
+
+    /* Mobile LHS */
+    &.manager_lhs_mobile {
+        height: 100px;
+
+        .logo_top_div {
+            padding: 15px;
+        }
+
+        .mobile_menu_button {
+            cursor: pointer;
+            position: absolute;
+            padding: 0px 25px;
+            right: 0px;
+            color: #fff;
+            font-size: 30px;
+            height: 100%;
+            top: 0px;
+            line-height: 0;
+            display: flex;
+            align-items: center;
+        }
+    }
+    /* Mobile LHS */
 }
 /* Manager LHS */
 
 /* Manager RHS */
 .manager_rhs {
     min-height: 100vh;
-    width: 75%;
+    width: 100%;
     margin-left: 325px;
+    padding: 15px;
 
     @include media-breakpoint-down(sm) {
         width: 100%;
         margin-left: 0px;
+        margin-top: 100px;
+        min-height: calc(100vh - 100px);
     }
 }
 /* Manager RHS */
