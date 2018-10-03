@@ -250,6 +250,7 @@ button {
             font-family: montserrat;
             text-transform: uppercase;
             font-weight: 500;
+            text-decoration: none;
             font-size: 14px;
             display: flex;
             align-items: center;
@@ -347,13 +348,38 @@ button {
     min-height: 100vh;
     width: 100%;
     margin-left: 325px;
-    padding: 15px;
+    padding: $rhs_padding;
 
     @include media-breakpoint-down(sm) {
         width: 100%;
         margin-left: 0px;
         margin-top: 100px;
         min-height: calc(100vh - 100px);
+    }
+
+    &__top_bar {
+        display: flex;
+
+        & > div {
+            display: flex;
+            align-items: center;
+        }
+
+        .rhs_menu_icon {
+            color: #FC4D36;
+
+            svg {
+                font-size: 26px;
+            }
+        }
+
+        .rhs_title {
+            font-family: montserrat;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-left: $rhs_padding;
+        }
     }
 }
 /* Manager RHS */
