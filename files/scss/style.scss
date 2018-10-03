@@ -402,6 +402,17 @@ button {
         &__body {
             .icon_container {
                 display: inline-block;
+
+                .icon_a {
+                    color: #333;
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
+
                 svg {
                     font-size: 60px;
                 }
