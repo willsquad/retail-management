@@ -17,6 +17,10 @@
 $rhs_padding: 25px;
 /* Length */
 
+.icon_flip {
+    transform: scaleX(-1);
+}
+
 
 /********* BOOTSTRAP MEDIA-QUERY MIXINS ********* Media Breakpoint  DUBO: down, up, between, only ************
 
