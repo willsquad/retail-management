@@ -6,50 +6,24 @@
         <!-- Manager RHS: Top Bar -->
         <div class="manager_rhs__top_bar">
             <div class="rhs_menu_icon"><i class="fas fa-bars"></i></div>
-            <div class="rhs_title">Sales</div>
+            <div class="rhs_title">Inventory</div>
         </div>
         <!-- Manager RHS: Top Bar -->
 
         <!-- Manager RHS: Content -->
         <div class="manager_rhs__content">
-            <h5 class="manager_rhs__content__title">Sale</h5>
 
+            <!-- New Section -->
+            <h5 class="manager_rhs__content__title">Items & Inventory</h5>
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
                 <!-- Icon container -->
                 <div class="icon_container sales">
                     <!-- Icon container link-->
                     <a class="icon_a" href="register.php">
-                        <i class="fas fa-reply icon_flip"></i>
+                        <i class="fas fa-search"></i>
                         <div class="icon_text">
-                            <span class="icon_name">Continue Sale</span>
-                        </div>
-                    </a>  
-                    <!-- Icon container link-->        
-
-                    <!-- Icon container link-->
-                    <a class="icon_a" href="register.php">
-                        <i class="fas fa-star"></i>
-                        <div class="icon_text">
-                            <span class="icon_name">Special Order</span>
-                        </div>
-                    </a>  
-                    <!-- Icon container link-->        
-
-                    <!-- Icon container link-->
-                    <a class="icon_a" href="register.php">
-                        <i class="fas fa-umbrella"></i>
-                        <div class="icon_text">
-                            <span class="icon_name">Layaway</span>
-                        </div>
-                    </a>  
-                    <!-- Icon container link-->        
-
-                    <!-- Icon container link-->
-                    <a class="icon_a" href="register.php">
-                        <i class="fas fa-ticket-alt"></i>
-                        <div class="icon_text">
-                            <span class="icon_name">Refund</span>
+                            <span class="icon_name">Search</span>
                         </div>
                     </a>  
                     <!-- Icon container link-->        
@@ -58,52 +32,108 @@
                     <a class="icon_a" href="register.php">
                         <i class="fas fa-plus"></i>
                         <div class="icon_text">
-                            <span class="icon_name">New Sale</span>
+                            <span class="icon_name">New Item</span>
                         </div>
                     </a>  
                     <!-- Icon container link-->        
+
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-file-import"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Import</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->            
                 </div>
                 <!-- Icon container -->
             </div>
             <!-- RHS Content: Body -->
 
-
-            <h5 class="manager_rhs__content__title">Register</h5>
-
+            <!-- New Section -->
+            <h5 class="manager_rhs__content__title">Purchase Order & Shipping</h5>
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
                 <!-- Icon container -->
                 <div class="icon_container sales">
                     <!-- Icon container link-->
                     <a class="icon_a" href="register.php">
-                        <i class="fas fa-power-off"></i>
+                        <i class="fas fa-inbox"></i>
                         <div class="icon_text">
-                            <span class="icon_name">Close Register</span>
+                            <span class="icon_name">Master Order</span>
                         </div>
                     </a>  
                     <!-- Icon container link-->        
 
                     <!-- Icon container link-->
                     <a class="icon_a" href="register.php">
-                        <i class="fas fa-minus-circle"></i>
+                        <i class="fas fa-shopping-cart"></i>
                         <div class="icon_text">
-                            <span class="icon_name">Payout / Drop</span>
+                            <span class="icon_name">Purchase order</span>
                         </div>
                     </a>  
                     <!-- Icon container link-->        
 
                     <!-- Icon container link-->
                     <a class="icon_a" href="register.php">
-                        <i class="fas fa-plus-circle"></i>
+                        <i class="fas fa-plus"></i>
                         <div class="icon_text">
-                            <span class="icon_name">Add Cash</span>
+                            <span class="icon_name">New Order</span>
                         </div>
                     </a>  
-                    <!-- Icon container link-->             
+                    <!-- Icon container link-->    
+                    
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-reply"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Vendor Return</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->   
+
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-truck"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Shipping</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->   
                 </div>
                 <!-- Icon container -->
             </div>
             <!-- RHS Content: Body -->
+
+            <!-- New Section -->
+            <h5 class="manager_rhs__content__title">Inventory Maintenance</h5>
+            <!-- RHS Content: Body -->
+            <div class="manager_rhs__content__body">
+                <!-- Icon container -->
+                <div class="icon_container sales">
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-chart-bar"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Inventory Count</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->        
+
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-pen"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Edit</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->        
+                </div>
+                <!-- Icon container -->
+            </div>
+            <!-- RHS Content: Body -->
+
+
         </div>
         <!-- Manager RHS: Content -->
     </div>

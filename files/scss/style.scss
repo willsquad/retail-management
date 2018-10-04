@@ -418,7 +418,12 @@ button {
                     align-items: center;
                     flex-wrap: wrap;
                     margin-right:50px;
-                    width: 100px;
+                    min-width: 100px;
+                    margin-bottom: 30px;
+
+                    @include media-breakpoint-down(sm) {
+                        margin-right: 30px;
+                    }
 
                     &:hover {
                         color: #000;
