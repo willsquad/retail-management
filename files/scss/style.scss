@@ -396,7 +396,7 @@ button {
             border-bottom: 1px solid #D1D1D1;
             padding-bottom: 10px;
             color: #171717;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
 
             .title_light {
                 font-size: 12px;
@@ -443,6 +443,8 @@ button {
             .currency_coins_container {
                 display: flex;
                 flex-wrap: wrap;
+                border-bottom: 1px solid #D1D1D1;
+                padding-bottom: 10px;
 
                 & > div {
                     margin-right: 100px;
@@ -456,8 +458,13 @@ button {
                     }
                 }
 
+                .extra_fields_container {
+                    margin-right: 0px;
+                    width: 100%;
+                }
+
                 .currency_container {
-                    margin-bottom: 30px;
+                    margin-bottom: 10px;
                 }
 
                 .currency_count {
@@ -475,13 +482,17 @@ button {
                         justify-content: flex-end;
                     }
 
-                    .currency_input {
+                    .currency_input, .coin_input, .extra_input, .total_output {
                         background-color: #F0F0F0;
                         border: 1px solid #D1D1D1;
                         border-radius: 4px;
                         padding: 8px;
                         width: 80px;
                         margin-left: 20px;
+                    }
+
+                    .extra_input, .total_output {
+                        width: 160px;
                     }
                 }
             }

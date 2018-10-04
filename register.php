@@ -64,35 +64,57 @@
                         <!-- Currency Count -->
                         <div class="currency_count">
                             <p class="currency_count_p">50c x</p>
-                            <input type="number" class="currency_input">
+                            <input type="number" class="coin_input">
                         </div>
                         <!-- Currency Count -->
                         <!-- Currency Count -->
                         <div class="currency_count">
                             <p class="currency_count_p">25c x</p>
-                            <input type="number" class="currency_input">
+                            <input type="number" class="coin_input">
                         </div>
                         <!-- Currency Count -->
                         <!-- Currency Count -->
                         <div class="currency_count">
                             <p class="currency_count_p">10c x</p>
-                            <input type="number" class="currency_input">
+                            <input type="number" class="coin_input">
                         </div>
                         <!-- Currency Count -->
                         <!-- Currency Count -->
                         <div class="currency_count">
                             <p class="currency_count_p">5c x</p>
-                            <input type="number" class="currency_input">
+                            <input type="number" class="coin_input">
                         </div>
                         <!-- Currency Count -->
                         <!-- Currency Count -->
                         <div class="currency_count">
                             <p class="currency_count_p">1c x</p>
-                            <input type="number" class="currency_input">
+                            <input type="number" class="coin_input">
                         </div>
                         <!-- Currency Count -->
                     </div>
                     <!-- Coins -->
+
+                    <!-- Extra Fields -->
+                    <div class="extra_fields_container">
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">Extra</p>
+                            <input type="number" class="extra_input">
+                        </div>
+                        <!-- Currency Count -->
+                    </div>
+                    <!-- Extra Fields -->
+
+                    <!-- Extra Fields -->
+                    <div class="extra_fields_container">
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">Total</p>
+                            <input type="number" class="total_output">
+                        </div>
+                        <!-- Currency Count -->
+                    </div>
+                    <!-- Extra Fields -->
                 </div>
                 <!-- Currency details -->
 
