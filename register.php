@@ -12,11 +12,11 @@
 
         <!-- Manager RHS: Content -->
         <div class="manager_rhs__content">
-            <h5 class="manager_rhs__content__title">Register 1 (Open)</h5>
+            <h5 class="manager_rhs__content__title">Open Register: <span class="title_light">Register 1</span></h5>
 
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
-                
+
             </div>
             <!-- RHS Content: Body -->
         </div>
