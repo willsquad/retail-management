@@ -461,6 +461,15 @@ button {
                 .extra_fields_container {
                     margin-right: 0px;
                     width: 100%;
+                    position: relative;
+
+                    .currency_sign {
+                        position: absolute;
+                        left: 130px;
+                        top: 10px;
+                        font-weight: bold;
+
+                    }
                 }
 
                 .currency_container {
@@ -493,10 +502,39 @@ button {
 
                     .extra_input, .total_output {
                         width: 160px;
+                        padding-left: 25px;
                     }
                 }
             }
             /* Currency & Coins container */
+
+            /* Register Buttons Container */
+            .buttons_container {
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                .register_button {
+                    font-family: "open sans";
+                    font-weight: 700;
+                    font-size: 12px;
+                    background-color: #E8E8E8;
+                    color: #000;
+                    padding: 12px 28px;
+                    border: none;
+                    outline: none;
+                    margin-right: 10px;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                    border-radius: 4px;
+
+                    &.save_and_add_register {
+                        background-color: #FF512F;
+                        color: #fff;
+                    }
+                }
+            }
+            /* Register Buttons Container */
         }
         /* Content Body */
     }

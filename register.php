@@ -100,6 +100,7 @@
                         <div class="currency_count">
                             <p class="currency_count_p">Extra</p>
                             <input type="number" class="extra_input">
+                            <span class="currency_sign">$</span>
                         </div>
                         <!-- Currency Count -->
                     </div>
@@ -110,7 +111,8 @@
                         <!-- Currency Count -->
                         <div class="currency_count">
                             <p class="currency_count_p">Total</p>
-                            <input type="number" class="total_output">
+                            <input type="number" class="total_output" disabled="true">
+                            <span class="currency_sign">$</span>
                         </div>
                         <!-- Currency Count -->
                     </div>
@@ -120,7 +122,8 @@
 
                 <!-- Buttons container -->
                 <div class="buttons_container">
-                    buttons
+                    <button class="register_button save_and_add_register">Submit Count & Open</button>
+                    <button class="register_button cancel_register">Cancel</button>
                 </div>
                 <!-- Buttons container -->
             </div>

@@ -23,7 +23,7 @@
                         <i class="fas fa-inbox"></i>
                         <div class="icon_text">
                             <span class="icon_name">Register 1</span>
-                            <span class="icon_status">(Open)</span>
+                            <span class="icon_status">(Closed)</span>
                         </div>
                     </a>  
                     <!-- Icon container link-->        
