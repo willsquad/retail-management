@@ -16,7 +16,91 @@
 
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
+                <!-- Currency & Coins Container -->
+                <div class="currency_coins_container">
+                    <!-- Currency -->
+                    <div class="currency_container">
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">$100 x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">$50 x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">$20 x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">$10 x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">$5 x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">$1 x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                    </div>
+                    <!-- Currency -->
 
+                    <!-- Coins -->
+                    <div class="coins_container">
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">50c x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">25c x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">10c x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">5c x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                        <!-- Currency Count -->
+                        <div class="currency_count">
+                            <p class="currency_count_p">1c x</p>
+                            <input type="number" class="currency_input">
+                        </div>
+                        <!-- Currency Count -->
+                    </div>
+                    <!-- Coins -->
+                </div>
+                <!-- Currency details -->
+
+                <!-- Buttons container -->
+                <div class="buttons_container">
+                    buttons
+                </div>
+                <!-- Buttons container -->
             </div>
             <!-- RHS Content: Body -->
         </div>

@@ -438,6 +438,54 @@ button {
                 }
             }
             /* Icon Container */
+
+            /* Currency & Coins container */
+            .currency_coins_container {
+                display: flex;
+                flex-wrap: wrap;
+
+                & > div {
+                    margin-right: 100px;
+
+                    @include media-breakpoint-down(md) {
+                        margin-right: 25px;
+                    }
+
+                    @include media-breakpoint-down(sm) {
+                        margin-right: 10px;
+                    }
+                }
+
+                .currency_container {
+                    margin-bottom: 30px;
+                }
+
+                .currency_count {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+
+                    .currency_count_p {
+                        margin-bottom: 0px;
+                        font-family: montserrat;
+                        font-size: 15px;
+                        font-weight: 700;
+                        width: 100px;
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+
+                    .currency_input {
+                        background-color: #F0F0F0;
+                        border: 1px solid #D1D1D1;
+                        border-radius: 4px;
+                        padding: 8px;
+                        width: 80px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+            /* Currency & Coins container */
         }
         /* Content Body */
     }
