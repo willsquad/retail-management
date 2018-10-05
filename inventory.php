@@ -29,7 +29,7 @@
                     <!-- Icon container link-->        
 
                     <!-- Icon container link-->
-                    <a class="icon_a" href="register.php">
+                    <a class="icon_a" href="new-item.php">
                         <i class="fas fa-plus"></i>
                         <div class="icon_text">
                             <span class="icon_name">New Item</span>
