@@ -566,6 +566,38 @@ button {
                 }
             }
             /* Register Buttons Container */
+
+            /* Search Items */
+            .search_items_container {
+                .search_items {
+                    background-color: #F0F0F0;
+                    border: 1px solid #D1D1D1;
+                    padding: 8px;
+                    width: 250px;
+                    font-size: 14px;
+                    line-height: 1.65em;
+                    margin-right: 5px;
+                }
+
+                button {
+                    background-color: #464646;
+                    color: #fff;
+                    padding: 11px 20px;
+                    border: none;
+                    outline: none;
+                    margin-right: 2px;
+                    font-family: montserrat;
+                    font-size: 13px;
+                    position: relative;
+                    top: -1px;
+
+                    &.search_item_button {
+                        background-color: #FF512F;
+                    }
+                }
+            }
+            
+            /* Search Items */
         }
         /* Content Body */
     }

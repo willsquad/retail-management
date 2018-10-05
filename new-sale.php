@@ -16,8 +16,13 @@
 
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
-
-                
+                <!-- Search Item -->
+                <div class="search_items_container">
+                    <input type="search" class="search_items" placeholder="Find items">
+                    <button class="search_item_button">Search</button>
+                    <button class="add_item_button">New</button>
+                </div>
+                <!-- Search Item -->
             </div>
             <!-- RHS Content: Body -->
         </div>
