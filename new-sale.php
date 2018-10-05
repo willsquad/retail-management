@@ -25,13 +25,55 @@
 
         <!-- New Sale RHS sidebar -->
         <div class="new_sale_rhs hidden-lg-down">
+            <div class="new_sale_text_amount_div">
+                <span class="new_sale_text">Subtotal</span>
+                <span class="new_sale_amount">$30.00</span>
+            </div>
+            <div class="new_sale_text_amount_div">
+                <span class="new_sale_text">Discounts</span>
+                <span class="new_sale_amount">$0.00</span>
+            </div>
+            <div class="new_sale_text_amount_div">
+                <span class="new_sale_text">Taxes</span>
+                <span class="new_sale_amount">$2.50</span>
+            </div>
 
+            <div class="new_sale_text_amount_div total_amount_div">
+                <span class="new_sale_text">Total</span>
+                <span class="new_sale_amount">$32.50</span>
+            </div>
+
+            <div class="new_sale_payment_div">
+                <button class="payment_button">Payment</button>
+                <button class="payment_cancel_button">cancel</button>
+            </div>
         </div>
         <!-- New Sale RHS sidebar -->
 
         <!-- New Sale RHS sidebar -->
         <div class="new_sale_rhs_mobile hidden-xl-up">
+            <div class="new_sale_text_amount_div">
+                <span class="new_sale_text">Subtotal</span>
+                <span class="new_sale_amount">$30.00</span>
+            </div>
+            <div class="new_sale_text_amount_div">
+                <span class="new_sale_text">Discounts</span>
+                <span class="new_sale_amount">$0.00</span>
+            </div>
+            <div class="new_sale_text_amount_div">
+                <span class="new_sale_text">Taxes</span>
+                <span class="new_sale_amount">$2.50</span>
+            </div>
 
+            <div class="new_sale_text_amount_div total_amount_div">
+                <span class="new_sale_text">Total</span>
+                <span class="new_sale_amount">$32.50</span>
+            </div>
+
+            <div class="new_sale_payment_div">
+                <button class="payment_button">Payment</button>
+                <button class="payment_cancel_button">cancel</button>
+            </div>
         </div>
         <!-- New Sale RHS sidebar -->
 

@@ -585,10 +585,71 @@ button {
     max-width: 325px;
     min-width: 325px;
 
+    padding: 50px 25px;
+
     @include media-breakpoint-down(sm) {
         width: 100%;
         max-width: 100%;
         min-width: 325px;
+    }
+
+    .new_sale_text_amount_div {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        font-family: montserrat;
+        margin-bottom: 20px;
+
+        .new_sale_text {
+            width: 125px;
+            display: inline-flex;
+            justify-content: flex-start;
+            font-weight: 700;
+        }
+        .new_sale_amount {
+            width: 125px;
+            display: inline-flex;
+            justify-content: flex-end;
+            font-weight: 400;
+        }
+
+        &.total_amount_div {
+            margin-top: 50px;
+            padding: 25px 0px;
+            font-size: 20px;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+    }
+
+    .new_sale_payment_div {
+        margin-top: 60px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .payment_button, .payment_cancel_button {
+            background-color: #35B858;
+            color: #fff;
+            padding: 12px 28px;
+            border: none;
+            outline: none;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-family: montserrat;
+            margin-bottom: 10px;
+            width: 130px;
+        }
+
+        .payment_cancel_button {
+            background-color: #E8E8E8;
+            color: #000;
+            position: absolute;
+            bottom: 15px;
+        }
     }
 }
 
@@ -596,4 +657,72 @@ button {
     background-color: #fff;
     min-height: 200px;
     width: 100%;
+    padding: 50px 25px;
+
+    .new_sale_text_amount_div {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        font-family: montserrat;
+        margin-bottom: 20px;
+
+        .new_sale_text {
+            width: 125px;
+            display: inline-flex;
+            justify-content: flex-start;
+            font-weight: 700;
+
+            @include media-breakpoint-down(xs) {
+                width: 85px;
+                font-size: 15px;
+            }
+        }
+        .new_sale_amount {
+            width: 125px;
+            display: inline-flex;
+            justify-content: flex-end;
+            font-weight: 400;
+
+            @include media-breakpoint-down(xs) {
+                width: 100px;
+                font-size: 15px;
+            }
+        }
+
+        &.total_amount_div {
+            margin-top: 50px;
+            padding: 20px 0px;
+            font-size: 18px;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+    }
+
+    .new_sale_payment_div {
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .payment_button, .payment_cancel_button {
+            background-color: #35B858;
+            color: #fff;
+            padding: 12px 28px;
+            border: none;
+            outline: none;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-family: montserrat;
+            margin-bottom: 10px;
+            width: 130px;
+        }
+
+        .payment_cancel_button {
+            background-color: #E8E8E8;
+            color: #000;
+        }
+    }
 }
