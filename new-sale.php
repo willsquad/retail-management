@@ -23,6 +23,29 @@
                     <button class="add_item_button">New</button>
                 </div>
                 <!-- Search Item -->
+
+                <!-- Sales Table -->
+                <table class="sales_table">
+                    <tr class="sales_table_head">
+                        <th>Description</th>
+                        <th>Price</th> 
+                        <th>Qty</th>
+                        <th>Subtotal</th>
+                    </tr>
+                    <tr class="sales_table_row">
+                        <td class="product_name">Product name</td>
+                        <td>$30.00</td> 
+                        <td>1</td>
+                        <td>$30.00</td>
+                    </tr>
+                    <tr class="sales_table_row">
+                        <td class="product_name"></td>
+                        <td></td> 
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <!-- Sales Table -->
             </div>
             <!-- RHS Content: Body -->
         </div>

@@ -596,8 +596,49 @@ button {
                     }
                 }
             }
-            
             /* Search Items */
+
+            /* Sales Table */
+            .sales_table {
+                width: 100%;
+                margin-top: 50px;
+
+                tr th {
+                    font-family: "open sans";
+                    text-transform: uppercase;
+                    font-size: 13px;
+                }
+
+                .sales_table_head {
+                    border-bottom: 1px solid #A2A2A2;
+
+                    th {
+                        border-right: 1px solid #a2a2a2;
+                        padding: 15px 20px;
+
+                        &:last-child {
+                            border-right: none;
+                        }
+                    }
+                }
+
+                .sales_table_row {
+                    font-size: 14px;
+                    td {
+                        border-right: 1px solid #a2a2a2;
+                        padding: 15px 20px;
+
+                        &:last-child {
+                            border-right: none;
+                        }
+                    }
+
+                    .product_name {
+                        width: 750px;
+                    }
+                }
+            }
+            /* Sales Table */
         }
         /* Content Body */
     }
