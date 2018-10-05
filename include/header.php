@@ -35,7 +35,7 @@
                     <!-- Register Name -->
                     <div class="store_register">
                         <ul class="register_ul">
-                            <li><a href="#">Register <i class="fas fa-caret-right"></i></a></li>
+                            <li><a href="register.php">Register <i class="fas fa-caret-right"></i></a></li>
                         </ul>
                     </div>
                     <!-- Register Name -->      
@@ -55,7 +55,7 @@
                 <!-- Menu -->
                 <div class="menu">
                     <a href="sales.php"><i class="fas fa-dollar-sign fa-fw"></i> Sales</a>
-                    <a href="#"><i class="fas fa-truck fa-fw"></i> Inventory</a>
+                    <a href="inventory.php"><i class="fas fa-truck fa-fw"></i> Inventory</a>
                     <a href="#"><i class="fas fa-user fa-fw"></i> Customers</a>
                     <a href="#"><i class="fas fa-file-pdf fa-fw"></i> Reports</a>
                     <a href="#"><i class="fas fa-cog fa-fw"></i> Settings</a>

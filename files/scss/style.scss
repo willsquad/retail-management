@@ -3,7 +3,7 @@
 @import 'mixins/breakpoints';
 
 body {
-    background-color: #FDFDFD; //overflow-y: hidden;
+    background-color: $body_color; //overflow-y: hidden;
     font-family: "open sans";
 }
 
@@ -350,6 +350,14 @@ button {
     margin-left: 325px;
     padding: $rhs_padding;
 
+    &.new_sale_manager_rhs {
+        margin-right: 325px;
+
+        @include media-breakpoint-down(lg) {
+            margin-right: 0px;
+        }
+    }
+
     @include media-breakpoint-down(sm) {
         width: 100%;
         margin-left: 0px;
@@ -406,6 +414,7 @@ button {
 
         &__body {
             margin-bottom: 75px;
+
             .icon_container {
                 display: flex;
                 flex-wrap: wrap;
@@ -563,3 +572,28 @@ button {
     /* Manager RHS: Content */
 }
 /* Manager RHS */
+
+.new_sale_rhs {
+    background-color: #fff;
+    height: 100vh;
+    position: absolute;
+    top:0px;
+    right: 0px;
+
+    padding: 0px;
+    width: 25%;
+    max-width: 325px;
+    min-width: 325px;
+
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+        max-width: 100%;
+        min-width: 325px;
+    }
+}
+
+.new_sale_rhs_mobile {
+    background-color: #fff;
+    min-height: 200px;
+    width: 100%;
+}
