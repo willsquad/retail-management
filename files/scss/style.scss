@@ -721,6 +721,35 @@ button {
     }
     /* Input container */
 
+    /* Main Heading and Button Container */
+    .main_heading_button_container {
+        position: relative;
+
+        .top_buttons_container {
+            position: absolute;
+            right: 0;
+            top:-23px;
+
+            .save_button, .save_and_add_button {
+                background-color: #FF512F;
+                color: #fff;
+                padding: 10px 20px;
+                font-size: 12px;
+                border: none;
+                outline: none;
+                border-radius: 25px;
+                min-width: 100px;
+                margin-left: 5px;
+                font-weight: 600;
+            }
+
+            .save_and_add_button {
+                background-color: #5D5D5D;
+            }
+        }
+    }
+    /* Main Heading and Button Container */
+
     /* New Sale RHS : Sidebar (Should be positioned outside)*/
     .new_sale_rhs {
         background-color: #f7f7f7;

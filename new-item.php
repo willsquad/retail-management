@@ -14,6 +14,10 @@
         <div class="manager_rhs__content">
             <div class="main_heading_button_container">
                 <h5 class="manager_rhs__content__title new_item_heading">New Item</h5>
+                <div class="top_buttons_container">
+                    <button class="save_button">Save changes</button>
+                    <button class="save_and_add_button">Save & Add New Item</button>
+                </div>
             </div>
             
 
