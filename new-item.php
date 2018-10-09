@@ -61,6 +61,20 @@
 
                     <div class="new_item_section col-12 col-md-12 col-xl-5">
                         <h4 class="new_item_section__heading">Pricing (USD)</h4>   
+                        
+                        <div class="input_container">
+                            <p class="input_p">Purchase Price</p>
+                            <input type="number" class="input_box_small">
+                        </div>
+
+                        <div class="input_container">
+                            <p class="input_p">MSRP</p>
+                            <input type="text" class="input_box_small">
+                        </div>
+                        <div class="input_container">
+                            <p class="input_p">Sale Price</p>
+                            <input type="text" class="input_box_small">
+                        </div>
                     </div>
 
                     <div class="col-12 col-xl-1"></div>
