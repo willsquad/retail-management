@@ -81,6 +81,15 @@
                     
                     <div class="new_item_section col-12 col-md-12 col-xl-5">
                         <h4 class="new_item_section__heading">Additional Details</h4>    
+                        
+                        <div class="input_container">
+                            <p class="input_p">Category</p>
+                            <input type="text" class="input_box_large">
+                        </div>
+                        <div class="input_container">
+                            <p class="input_p">Tax Class</p>
+                            <input type="text" class="input_box_large">
+                        </div>
                     </div>
                     
                 </div>
