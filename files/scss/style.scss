@@ -373,7 +373,7 @@ button {
     /* Manager RHS: Top Bar */
     &__top_bar {
         display: flex;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
 
         & > div {
             display: flex;
@@ -410,6 +410,11 @@ button {
             padding-bottom: 10px;
             color: #171717;
             margin-bottom: 40px;
+
+            &.new_item_heading {
+                margin-bottom: 60px;
+            }
+            
 
             .title_light {
                 font-size: 12px;
@@ -648,13 +653,17 @@ button {
 
             /*** New Sale Page ***/
             .new_item_section {
-                min-height: 400px;
+                min-height: 200px;
+                margin-bottom: 50px;
+                max-width: 500px;
+
                 &__heading {
                     font-size: 12px;
                     font-weight: bold;
                     text-transform: uppercase;
-                    padding-bottom: 10px;
-                    border-bottom: 1px solid #D1D1D1;
+                    padding-bottom: 12px;
+                    border-bottom: 1px solid #dedede;
+                    margin-bottom: 35px;
                 }
             }
             /*** New Sale Page ***/
@@ -663,9 +672,55 @@ button {
     }
     /* Manager RHS: Content */
 
+    /* Input container */
+    .input_container {
+        display: flex;
+        //align-items: center;
+        margin-bottom: 20px;
+
+        .input_p {
+            margin-bottom: 0px;
+            font-family: montserrat;
+            font-size: 14px;
+            font-weight: 400;
+            min-width: 100px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            &.input_p_textarea {
+                align-items: flex-start;
+                padding-top: 10px;
+            }
+        }
+
+        .input_box, .input_box_large, .input_textarea {
+            background-color: #F0F0F0;
+            border: 1px solid #D1D1D1;
+            border-radius: 2px;
+            padding: 8px 12px;
+            width: 100%;
+            max-width: 80px;
+            margin-left: 20px;
+        }
+
+        .input_box_large {
+            max-width: 300px;
+            //padding-left: 25px;
+        }
+
+
+        .input_textarea {
+            max-width: 300px;
+            min-height: 125px;
+            max-height: 125px;
+        }
+    }
+    /* Input container */
+
     /* New Sale RHS : Sidebar (Should be positioned outside)*/
     .new_sale_rhs {
-        background-color: #fff;
+        background-color: #f7f7f7;
         height: 100vh;
         position: absolute;
         top:0px;

@@ -12,31 +12,43 @@
 
         <!-- Manager RHS: Content -->
         <div class="manager_rhs__content">
-            <h5 class="manager_rhs__content__title">New Item</h5>
+            <div class="main_heading_button_container">
+                <h5 class="manager_rhs__content__title new_item_heading">New Item</h5>
+            </div>
+            
 
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
                 <div class="row">
-                    <div class="new_item_section col-12 col-md-12 col-lg-5">
+                    <div class="new_item_section col-12 col-md-12 col-xl-5">
                         <h4 class="new_item_section__heading">Name & Description</h4>        
+
+                        <div class="input_container">
+                            <p class="input_p">Item Name</p>
+                            <input type="text" class="input_box_large">
+                        </div>
+
+                        <div class="input_container">
+                            <p class="input_p input_p_textarea">Description</p>
+                            <textarea class="input_box input_textarea"></textarea>
+                        </div>
+
                     </div>
 
-                    <div class="col-12 col-lg-1"></div>
+                    <div class="col-12 col-xl-1"></div>
 
-                    <div class="new_item_section col-12 col-md-12 col-lg-5">
-                        <h4 class="new_item_section__heading">Pricing</h4>                    
+                    <div class="new_item_section col-12 col-md-12 col-xl-5">
+                        <h4 class="new_item_section__heading">Add Inventory</h4>      
                     </div>
 
-                    <div class="col-12 col-lg-1"></div>
-
-                    <div class="new_item_section col-12 col-md-12 col-lg-5">
-                        <h4 class="new_item_section__heading">Add Inventory</h4>               
+                    <div class="new_item_section col-12 col-md-12 col-xl-5">
+                        <h4 class="new_item_section__heading">Pricing (USD)</h4>   
                     </div>
 
-                    <div class="col-12 col-lg-1"></div>
+                    <div class="col-12 col-xl-1"></div>
                     
-                    <div class="new_item_section col-12 col-md-12 col-lg-5">
-                        <h4 class="new_item_section__heading">Additional Details</h4>                  
+                    <div class="new_item_section col-12 col-md-12 col-xl-5">
+                        <h4 class="new_item_section__heading">Additional Details</h4>    
                     </div>
                     
                 </div>
