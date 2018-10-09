@@ -19,7 +19,7 @@
                 <!-- Icon container -->
                 <div class="icon_container sales">
                     <!-- Icon container link-->
-                    <a class="icon_a" href="register.php">
+                    <a class="icon_a" href="new-sale.php">
                         <i class="fas fa-reply icon_flip"></i>
                         <div class="icon_text">
                             <span class="icon_name">Continue Sale</span>

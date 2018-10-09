@@ -320,6 +320,7 @@ button {
     /* Mobile LHS */
     &.manager_lhs_mobile {
         height: 100px;
+        z-index: 1000;
 
         .logo_top_div {
             padding: 15px;
@@ -580,7 +581,7 @@ button {
                     width: 250px;
                     font-size: 14px;
                     line-height: 1.65em;
-                    margin-right: 5px;
+                    margin-right: 2px;
                     margin-bottom: 10px;
                 }
 
@@ -594,7 +595,6 @@ button {
                     font-family: montserrat;
                     font-size: 13px;
                     position: relative;
-                    top: -1px;
                     margin-bottom: 5px;
 
                     &.search_item_button {
@@ -645,163 +645,179 @@ button {
                 }
             }
             /* Sales Table */
+
+            /*** New Sale Page ***/
+            .new_item_section {
+                min-height: 400px;
+                &__heading {
+                    font-size: 12px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #D1D1D1;
+                }
+            }
+            /*** New Sale Page ***/
         }
         /* Content Body */
     }
     /* Manager RHS: Content */
+
+    /* New Sale RHS : Sidebar (Should be positioned outside)*/
+    .new_sale_rhs {
+        background-color: #fff;
+        height: 100vh;
+        position: absolute;
+        top:0px;
+        right: 0px;
+
+        padding: 0px;
+        width: 25%;
+        max-width: 325px;
+        min-width: 325px;
+
+        padding: 50px 25px;
+
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            max-width: 100%;
+            min-width: 325px;
+        }
+
+        .new_sale_text_amount_div {
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            font-family: montserrat;
+            margin-bottom: 20px;
+
+            .new_sale_text {
+                width: 125px;
+                display: inline-flex;
+                justify-content: flex-start;
+                font-weight: 700;
+            }
+            .new_sale_amount {
+                width: 125px;
+                display: inline-flex;
+                justify-content: flex-end;
+                font-weight: 400;
+            }
+
+            &.total_amount_div {
+                margin-top: 50px;
+                padding: 25px 0px;
+                font-size: 20px;
+                border-top: 1px solid #000;
+                border-bottom: 1px solid #000;
+            }
+        }
+
+        .new_sale_payment_div {
+            margin-top: 60px;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .payment_button, .payment_cancel_button {
+                background-color: #35B858;
+                color: #fff;
+                padding: 12px 28px;
+                border: none;
+                outline: none;
+                font-weight: 600;
+                font-size: 13px;
+                text-transform: uppercase;
+                font-family: montserrat;
+                margin-bottom: 10px;
+                width: 130px;
+                border-radius: 50px;
+            }
+
+            .payment_cancel_button {
+                background-color: #E8E8E8;
+                color: #000;
+                position: absolute;
+                bottom: 15px;
+            }
+        }
+    }
+
+    .new_sale_rhs_mobile {
+        background-color: #fff;
+        min-height: 200px;
+        width: 100%;
+        padding: 25px 25px 15px;
+
+        .new_sale_text_amount_div {
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            font-family: montserrat;
+            margin-bottom: 20px;
+
+            .new_sale_text {
+                width: 125px;
+                display: inline-flex;
+                justify-content: flex-start;
+                font-weight: 700;
+
+                @include media-breakpoint-down(xs) {
+                    width: 85px;
+                    font-size: 15px;
+                }
+            }
+            .new_sale_amount {
+                width: 125px;
+                display: inline-flex;
+                justify-content: flex-end;
+                font-weight: 400;
+
+                @include media-breakpoint-down(xs) {
+                    width: 100px;
+                    font-size: 15px;
+                }
+            }
+
+            &.total_amount_div {
+                margin-top: 50px;
+                padding: 20px 0px;
+                font-size: 18px;
+                border-top: 1px solid #000;
+                border-bottom: 1px solid #000;
+            }
+        }
+
+        .new_sale_payment_div {
+            margin-top: 40px;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .payment_button, .payment_cancel_button {
+                background-color: #35B858;
+                color: #fff;
+                padding: 12px 28px;
+                border: none;
+                outline: none;
+                font-weight: 600;
+                font-size: 13px;
+                text-transform: uppercase;
+                font-family: montserrat;
+                margin-bottom: 10px;
+                width: 130px;
+            }
+
+            .payment_cancel_button {
+                background-color: #E8E8E8;
+                color: #000;
+            }
+        }
+    }
+    /* New Sale RHS : Sidebar */
 }
 /* Manager RHS */
-
-.new_sale_rhs {
-    background-color: #fff;
-    height: 100vh;
-    position: absolute;
-    top:0px;
-    right: 0px;
-
-    padding: 0px;
-    width: 25%;
-    max-width: 325px;
-    min-width: 325px;
-
-    padding: 50px 25px;
-
-    @include media-breakpoint-down(sm) {
-        width: 100%;
-        max-width: 100%;
-        min-width: 325px;
-    }
-
-    .new_sale_text_amount_div {
-        width: 100%;
-        text-align: center;
-        font-size: 16px;
-        font-family: montserrat;
-        margin-bottom: 20px;
-
-        .new_sale_text {
-            width: 125px;
-            display: inline-flex;
-            justify-content: flex-start;
-            font-weight: 700;
-        }
-        .new_sale_amount {
-            width: 125px;
-            display: inline-flex;
-            justify-content: flex-end;
-            font-weight: 400;
-        }
-
-        &.total_amount_div {
-            margin-top: 50px;
-            padding: 25px 0px;
-            font-size: 20px;
-            border-top: 1px solid #000;
-            border-bottom: 1px solid #000;
-        }
-    }
-
-    .new_sale_payment_div {
-        margin-top: 60px;
-        width: 100%;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        .payment_button, .payment_cancel_button {
-            background-color: #35B858;
-            color: #fff;
-            padding: 12px 28px;
-            border: none;
-            outline: none;
-            font-weight: 600;
-            font-size: 13px;
-            text-transform: uppercase;
-            font-family: montserrat;
-            margin-bottom: 10px;
-            width: 130px;
-        }
-
-        .payment_cancel_button {
-            background-color: #E8E8E8;
-            color: #000;
-            position: absolute;
-            bottom: 15px;
-        }
-    }
-}
-
-.new_sale_rhs_mobile {
-    background-color: #fff;
-    min-height: 200px;
-    width: 100%;
-    padding: 25px 25px 15px;
-
-    .new_sale_text_amount_div {
-        width: 100%;
-        text-align: center;
-        font-size: 16px;
-        font-family: montserrat;
-        margin-bottom: 20px;
-
-        .new_sale_text {
-            width: 125px;
-            display: inline-flex;
-            justify-content: flex-start;
-            font-weight: 700;
-
-            @include media-breakpoint-down(xs) {
-                width: 85px;
-                font-size: 15px;
-            }
-        }
-        .new_sale_amount {
-            width: 125px;
-            display: inline-flex;
-            justify-content: flex-end;
-            font-weight: 400;
-
-            @include media-breakpoint-down(xs) {
-                width: 100px;
-                font-size: 15px;
-            }
-        }
-
-        &.total_amount_div {
-            margin-top: 50px;
-            padding: 20px 0px;
-            font-size: 18px;
-            border-top: 1px solid #000;
-            border-bottom: 1px solid #000;
-        }
-    }
-
-    .new_sale_payment_div {
-        margin-top: 40px;
-        width: 100%;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        .payment_button, .payment_cancel_button {
-            background-color: #35B858;
-            color: #fff;
-            padding: 12px 28px;
-            border: none;
-            outline: none;
-            font-weight: 600;
-            font-size: 13px;
-            text-transform: uppercase;
-            font-family: montserrat;
-            margin-bottom: 10px;
-            width: 130px;
-        }
-
-        .payment_cancel_button {
-            background-color: #E8E8E8;
-            color: #000;
-        }
-    }
-}

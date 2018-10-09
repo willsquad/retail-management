@@ -16,7 +16,30 @@
 
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
+                <div class="row">
+                    <div class="new_item_section col-12 col-md-12 col-lg-5">
+                        <h4 class="new_item_section__heading">Name & Description</h4>        
+                    </div>
 
+                    <div class="col-12 col-lg-1"></div>
+
+                    <div class="new_item_section col-12 col-md-12 col-lg-5">
+                        <h4 class="new_item_section__heading">Pricing</h4>                    
+                    </div>
+
+                    <div class="col-12 col-lg-1"></div>
+
+                    <div class="new_item_section col-12 col-md-12 col-lg-5">
+                        <h4 class="new_item_section__heading">Add Inventory</h4>               
+                    </div>
+
+                    <div class="col-12 col-lg-1"></div>
+                    
+                    <div class="new_item_section col-12 col-md-12 col-lg-5">
+                        <h4 class="new_item_section__heading">Additional Details</h4>                  
+                    </div>
+                    
+                </div>
             </div>
             <!-- RHS Content: Body -->
         </div>
