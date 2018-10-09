@@ -39,6 +39,24 @@
 
                     <div class="new_item_section col-12 col-md-12 col-xl-5">
                         <h4 class="new_item_section__heading">Add Inventory</h4>      
+                        
+                        <div class="input_container">
+                            <p class="input_p">Add Qty</p>
+                            <input type="number" class="input_box_small">
+                        </div>
+
+                        <div class="input_container">
+                            <p class="input_p">UPC ID</p>
+                            <input type="text" class="input_box_large">
+                        </div>
+                        <div class="input_container">
+                            <p class="input_p">EAC ID</p>
+                            <input type="text" class="input_box_large">
+                        </div>
+                        <div class="input_container">
+                            <p class="input_p">SKU ID</p>
+                            <input type="text" class="input_box_large">
+                        </div>
                     </div>
 
                     <div class="new_item_section col-12 col-md-12 col-xl-5">

@@ -694,7 +694,7 @@ button {
             }
         }
 
-        .input_box, .input_box_large, .input_textarea {
+        .input_box, .input_box_large, .input_box_small, .input_textarea {
             background-color: #F0F0F0;
             border: 1px solid #D1D1D1;
             border-radius: 2px;
@@ -709,6 +709,9 @@ button {
             //padding-left: 25px;
         }
 
+        .input_box_small {
+            max-width: 150px;
+        }
 
         .input_textarea {
             max-width: 300px;
