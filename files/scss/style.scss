@@ -588,6 +588,14 @@ button {
                     line-height: 1.65em;
                     margin-right: 2px;
                     margin-bottom: 10px;
+
+                    &.find_items {
+                        border-radius: 50px;
+                        width: 300px;
+                        padding-left: 15px;
+                        padding-right: 65px;
+                        outline: none;
+                    }
                 }
 
                 button {
@@ -604,6 +612,14 @@ button {
 
                     &.search_item_button {
                         background-color: #FF512F;
+                    }
+
+                    &.find_item_button {
+                        background-color: #5c5c5c;
+                        border-top-right-radius: 50px;
+                        position: relative;
+                        left: -63px;
+                        border-bottom-right-radius: 50px
                     }
                 }
             }

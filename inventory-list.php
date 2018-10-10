@@ -22,6 +22,12 @@
 
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
+                <!-- Search Item -->
+                <div class="search_items_container">
+                    <input type="search" class="search_items find_items" placeholder="Find items">
+                    <button class="find_item_button">Go</button>
+                </div>
+                <!-- Search Item -->
 
             </div>
             <!-- RHS Content: Body -->
