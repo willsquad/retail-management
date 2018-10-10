@@ -591,8 +591,9 @@ button {
                     margin-bottom: 10px;
 
                     &.find_items {
-                        border-radius: 50px;
-                        width: 300px;
+                        //border-radius: 50px;
+                        width: 75%;
+                        max-width: 300px;
                         padding-left: 15px;
                         padding-right: 65px;
                         outline: none;
@@ -617,10 +618,10 @@ button {
 
                     &.find_item_button {
                         background-color: #5c5c5c;
-                        border-top-right-radius: 50px;
+                        //border-top-right-radius: 50px;
                         position: relative;
-                        left: -63px;
-                        border-bottom-right-radius: 50px
+                        left: -61px;
+                        //border-bottom-right-radius: 50px
                     }
                 }
             }
@@ -751,7 +752,7 @@ button {
         position: relative;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         flex-wrap: wrap;
 
         .top_buttons_container {
