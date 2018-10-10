@@ -412,7 +412,7 @@ button {
             margin-bottom: 40px;
 
             &.new_item_heading {
-                margin-bottom: 60px;
+                margin-bottom: 40px;
             }
             
 
@@ -652,10 +652,16 @@ button {
             /* Sales Table */
 
             /*** New Sale Page ***/
+            .new_item_section_container_row {
+                margin: 0px;
+            }
             .new_item_section {
                 min-height: 200px;
-                margin-bottom: 50px;
+                margin-bottom: 30px;
+                margin-right: 30px;
                 max-width: 500px;
+                background-color: #f5f5f5;
+                padding: 30px 20px;
 
                 &__heading {
                     font-size: 12px;
@@ -696,7 +702,8 @@ button {
         }
 
         .input_box, .input_box_large, .input_box_small, .input_textarea {
-            background-color: #F0F0F0;
+            //background-color: #F0F0F0;
+            background-color: #fff;
             border: 1px solid #D1D1D1;
             border-radius: 2px;
             padding: 8px 12px;

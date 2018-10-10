@@ -23,7 +23,7 @@
 
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
-                <div class="row">
+                <div class="row new_item_section_container_row">
                     <div class="new_item_section col-12 col-md-12 col-xl-5">
                         <h4 class="new_item_section__heading">Name & Description</h4>        
 
@@ -39,7 +39,7 @@
 
                     </div>
 
-                    <div class="col-12 col-xl-1"></div>
+                    <!-- <div class="col-12 col-xl-1"></div> -->
 
                     <div class="new_item_section col-12 col-md-12 col-xl-5">
                         <h4 class="new_item_section__heading">Add Inventory</h4>      
@@ -81,7 +81,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-xl-1"></div>
+                    <!-- <div class="col-12 col-xl-1"></div> -->
                     
                     <div class="new_item_section col-12 col-md-12 col-xl-5">
                         <h4 class="new_item_section__heading">Additional Details</h4>    
