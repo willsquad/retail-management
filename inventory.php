@@ -20,7 +20,7 @@
                 <!-- Icon container -->
                 <div class="icon_container sales">
                     <!-- Icon container link-->
-                    <a class="icon_a" href="register.php">
+                    <a class="icon_a" href="inventory-list.php">
                         <i class="fas fa-search"></i>
                         <div class="icon_text">
                             <span class="icon_name">Search</span>
