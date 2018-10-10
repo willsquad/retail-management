@@ -412,7 +412,8 @@ button {
             margin-bottom: 40px;
 
             &.new_item_heading {
-                margin-bottom: 40px;
+                margin-bottom: 15px;
+                flex-grow: 1;
             }
             
 
@@ -748,11 +749,20 @@ button {
     /* Main Heading and Button Container */
     .main_heading_button_container {
         position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
 
         .top_buttons_container {
-            position: absolute;
+            /* position: absolute;
             right: 0;
-            top:-23px;
+            top:-23px; */
+
+            position: relative;
+            top: -15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #D1D1D1;
 
             .save_button, .save_and_add_button, ,.add_item_button {
                 background-color: #FF512F;
