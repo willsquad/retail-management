@@ -738,7 +738,7 @@ button {
             right: 0;
             top:-23px;
 
-            .save_button, .save_and_add_button {
+            .save_button, .save_and_add_button, ,.add_item_button {
                 background-color: #FF512F;
                 color: #fff;
                 padding: 10px 20px;
@@ -753,6 +753,10 @@ button {
 
             .save_and_add_button {
                 background-color: #5D5D5D;
+            }
+
+            .add_item_button {
+                background-color: #4CAF50;
             }
         }
     }

@@ -14,6 +14,9 @@
         <div class="manager_rhs__content">
             <div class="main_heading_button_container">
                 <h5 class="manager_rhs__content__title new_item_heading">List</h5>
+                <div class="top_buttons_container">
+                    <button class="add_item_button">+ Add New Item</button>
+                </div>
             </div>
             
 
