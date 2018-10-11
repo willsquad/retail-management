@@ -31,27 +31,37 @@
 
                 <!-- Sales Table -->
                 <table class="sales_table inventory_table">
-                    <tr class="sales_table_head">
-                        <th>Qty</th>
-                        <th>Product Name</th>
-                        <th>Price</th> 
-                        <th>Purchase Price</th>
-                        <th>Sale Price</th>
-                    </tr>
-                    <tr class="sales_table_row">
-                        <td>49</td> 
-                        <td class="inventory_product_name">Product name</td>
-                        <td>$30.00</td> 
-                        <td>1</td>
-                        <td>$30.00</td>
-                    </tr>
-                    <tr class="sales_table_row">
-                        <td></td> 
-                        <td class="inventory_product_name"></td>
-                        <td></td> 
-                        <td></td>
-                        <td></td>
-                    </tr>
+                    <thead>
+                        <tr class="sales_table_head">
+                            <th>Qty</th>
+                            <th>Product Name</th>
+                            <th>MSRP</th> 
+                            <th>Purchase Price</th>
+                            <th>Sale Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="sales_table_row">
+                            <td>49</td> 
+                            <td class="inventory_product_name">
+                                Product name 1
+                                <div class="edit_remove"><a href="#">Edit</a> <a href="#">Remove</a></div>
+                            </td>
+                            <td>$50.00</td> 
+                            <td>$30.00</td>
+                            <td>$40.00</td>
+                        </tr>
+                        <tr class="sales_table_row">
+                            <td>15</td> 
+                            <td class="inventory_product_name">
+                                Product name 2
+                                <div class="edit_remove"><a href="#">Edit</a> <a href="#">Remove</a></div>
+                            </td>
+                            <td>$20.00</td> 
+                            <td>$10.00</td>
+                            <td>$15.00</td>
+                        </tr>
+                    </tbody>
                 </table>
                 <!-- Sales Table -->
 
