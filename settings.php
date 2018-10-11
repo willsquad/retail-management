@@ -13,6 +13,54 @@
         <!-- Manager RHS: Content -->
         <div class="manager_rhs__content">
 
+            <!-- New Section -->
+            <h5 class="manager_rhs__content__title">General</h5>
+            <!-- RHS Content: Body -->
+            <div class="manager_rhs__content__body">
+                <!-- Icon container -->
+                <div class="icon_container sales">
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="inventory-list.php">
+                        <i class="fas fa-building"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Shop Setup</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->        
+
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="new-item.php">
+                        <i class="far fa-address-card"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Employee Setup</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->        
+
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-users"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Employee Roles</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->      
+
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-bullhorn"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Branding</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->            
+                </div>
+                <!-- Icon container -->
+            </div>
+            <!-- RHS Content: Body -->
+
+
+
         </div>
         <!-- Manager RHS: Content -->
     </div>
