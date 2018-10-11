@@ -33,6 +33,7 @@
                 <table class="sales_table inventory_table">
                     <thead>
                         <tr class="sales_table_head">
+                            <th>#</th>
                             <th>Qty</th>
                             <th>Product Name</th>
                             <th>MSRP</th> 
@@ -42,6 +43,7 @@
                     </thead>
                     <tbody>
                         <tr class="sales_table_row">
+                            <td>1</td>
                             <td>49</td> 
                             <td class="inventory_product_name">
                                 Product name 1
@@ -52,6 +54,7 @@
                             <td>$40.00</td>
                         </tr>
                         <tr class="sales_table_row">
+                            <td>2</td>
                             <td>15</td> 
                             <td class="inventory_product_name">
                                 Product name 2
@@ -60,6 +63,17 @@
                             <td>$20.00</td> 
                             <td>$10.00</td>
                             <td>$15.00</td>
+                        </tr>
+                        <tr class="sales_table_row">
+                            <td>3</td>
+                            <td>25</td> 
+                            <td class="inventory_product_name">
+                                Product name 3
+                                <div class="edit_remove"><a href="#">Edit</a> <a href="#">Remove</a></div>
+                            </td>
+                            <td>$50.00</td> 
+                            <td>$30.00</td>
+                            <td>$40.00</td>
                         </tr>
                     </tbody>
                 </table>

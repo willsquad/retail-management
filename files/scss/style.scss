@@ -638,11 +638,14 @@ button {
                 transition: all 0.3s ease;
             }
             table tbody tr:nth-child(odd) {
-                background-color: #f6f6f6;
+                background-color: #f8f8f8;
+            }
+            table tbody tr:nth-child(even) {
+                background-color: #fff;
             }
 
             table tbody tr:hover {
-                background-color: #fafafa;
+                background-color: #fbfbfb;
             }
 
             .sales_table {
