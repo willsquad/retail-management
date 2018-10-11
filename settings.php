@@ -96,7 +96,42 @@
             </div>
             <!-- RHS Content: Body -->
 
-           
+            <!-- New Section -->
+            <h5 class="manager_rhs__content__title">Pricing</h5>
+            <!-- RHS Content: Body -->
+            <div class="manager_rhs__content__body">
+                <!-- Icon container -->
+                <div class="icon_container sales">
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-dollar-sign"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Pricing Levels</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->        
+
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-gift"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Discounts</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->        
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="register.php">
+                        <i class="fas fa-edit"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Adjust Payments</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->        
+                </div>
+                <!-- Icon container -->
+            </div>
+            <!-- RHS Content: Body -->
+
 
         </div>
         <!-- Manager RHS: Content -->
