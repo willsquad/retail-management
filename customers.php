@@ -23,7 +23,7 @@
                     <a class="icon_a" href="customer-list.php">
                         <i class="fas fa-user"></i>
                         <div class="icon_text">
-                            <span class="icon_name">Customers</span>
+                            <span class="icon_name">Customer List</span>
                         </div>
                     </a>  
                     <!-- Icon container link-->        

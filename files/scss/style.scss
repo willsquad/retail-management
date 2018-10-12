@@ -392,10 +392,23 @@ button {
         // RHS Title
         .rhs_title {
             font-family: montserrat;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 700;
             text-transform: uppercase;
             margin-left: $rhs_padding;
+
+            &.rhs_title_subpage {
+                font-size: 16px;
+                font-weight: 700;
+
+                svg {
+                    margin: 0px 15px;
+                }
+            }
+
+            a.rhs_title_link_main {
+                color: #333;
+            }
         }
     }
     /* Manager RHS: Top Bar */
