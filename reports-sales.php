@@ -6,22 +6,15 @@
         <!-- Manager RHS: Top Bar -->
         <div class="manager_rhs__top_bar">
             <div class="rhs_menu_icon"><i class="fas fa-bars"></i></div>
-            <div class="rhs_title">Reports</div>
+            <div class="rhs_title rhs_title_subpage"><a class="rhs_title_link_main" href="customers.php">Reports</a> <i class="fas fa-chevron-right"></i> Basic Report</div>
         </div>
         <!-- Manager RHS: Top Bar -->
 
         <!-- Manager RHS: Content -->
         <div class="manager_rhs__content">
-            <div class="reporting_buttons_container">
-                <button class="reporting_nav_button basic_report_button">Basic Reporting</button>
-                <button class="reporting_nav_button advanced_report_button">Advanced Reporting</button>
-            </div>      
-
-            <!-- RHS Content: Body -->
-            <div class="manager_rhs__content__body">
-
-            </div>
-            <!-- RHS Content: Body -->          
+            <!-- New Section -->
+            <h5 class="manager_rhs__content__title">Sales Report</h5>
+     
         </div>
         <!-- Manager RHS: Content -->
     </div>
