@@ -29,7 +29,7 @@
                     <!-- Icon container link-->        
 
                     <!-- Icon container link-->
-                    <a class="icon_a" href="new-item.php">
+                    <a class="icon_a" href="customer-list.php">
                         <i class="fas fa-user-clock"></i>
                         <div class="icon_text">
                             <span class="icon_name">Credit Accounts</span>
@@ -38,7 +38,7 @@
                     <!-- Icon container link-->        
 
                     <!-- Icon container link-->
-                    <a class="icon_a" href="register.php">
+                    <a class="icon_a" href="customer-list.php">
                         <i class="fas fa-users"></i>
                         <div class="icon_text">
                             <span class="icon_name">Customer Types</span>

@@ -57,7 +57,7 @@
                     <a href="sales.php"><i class="fas fa-dollar-sign fa-fw"></i> Sales</a>
                     <a href="inventory.php"><i class="fas fa-truck fa-fw"></i> Inventory</a>
                     <a href="customers.php"><i class="fas fa-user fa-fw"></i> Customers</a>
-                    <a href="#"><i class="fas fa-file-pdf fa-fw"></i> Reports</a>
+                    <a href="reports.php"><i class="fas fa-file-pdf fa-fw"></i> Reports</a>
                     <a href="settings.php"><i class="fas fa-cog fa-fw"></i> Settings</a>
                 </div>
                 <!-- Menu -->
