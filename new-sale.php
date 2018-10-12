@@ -36,13 +36,17 @@
                     </thead>
                     <tbody>
                         <tr class="sales_table_row">
-                            <td class="product_name">Product name</td>
+                            <td class="product_name">Product name
+                                <div class="edit_remove"><a href="#">Edit</a> <a href="#">Remove</a></div>
+                            </td>
                             <td>$30.00</td> 
                             <td>1</td>
                             <td>$30.00</td>
                         </tr>
                         <tr class="sales_table_row">
-                            <td class="product_name">Product name 2</td>
+                            <td class="product_name">Product name 2
+                                <div class="edit_remove"><a href="#">Edit</a> <a href="#">Remove</a></div>
+                            </td>
                             <td>$50.00</td> 
                             <td>1</td>
                             <td>$50.00</td>

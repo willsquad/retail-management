@@ -695,11 +695,7 @@ button {
                         }
                     }
 
-                    .product_name {
-                        width: 750px;
-                    }
-
-                    .inventory_product_name {
+                    .inventory_product_name, .product_name {
                         width: 500px;
 
                         .edit_remove {
@@ -711,6 +707,12 @@ button {
                             }
                         }
                     }
+
+                    .product_name {
+                        width: 750px;
+                    }
+
+                    
                 }
             }
             /* Sales Table */
