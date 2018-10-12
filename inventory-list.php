@@ -29,7 +29,7 @@
                 </div>
                 <!-- Search Item -->
 
-                <!-- Sales Table -->
+                <!-- Inventory Table -->
                 <table class="sales_table inventory_table">
                     <thead>
                         <tr class="sales_table_head">
@@ -77,7 +77,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <!-- Sales Table -->
+                <!-- Inventory Table -->
 
             </div>
             <!-- RHS Content: Body -->
