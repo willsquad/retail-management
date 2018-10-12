@@ -6,7 +6,7 @@
         <!-- Manager RHS: Top Bar -->
         <div class="manager_rhs__top_bar">
             <div class="rhs_menu_icon"><i class="fas fa-bars"></i></div>
-            <div class="rhs_title">Inventory</div>
+            <div class="rhs_title rhs_title_subpage"><a class="rhs_title_link_main" href="inventory.php">Inventory</a> <i class="fas fa-chevron-right"></i> List</div>
         </div>
         <!-- Manager RHS: Top Bar -->
 
