@@ -16,19 +16,10 @@
             <h5 class="manager_rhs__content__title">Sales Report</h5>
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
-                 <!-- Search Item -->
-                <div class="search_items_container">
-                    <div class="search_items_div">
-                        <input type="text" class="search_items search_report_date" placeholder="Search By Date (From)" onfocus="(this.type='date')" onblur="(this.type='text')" onblur="(this.value='2018-10-15')">
-                        <input type="text" class="search_items search_report_date" placeholder="Search By Date (To)" onfocus="(this.type='date')" onblur="(this.type='text')" onblur="(this.value='2018-10-15')">
-                        <input type="search" class="search_items" placeholder="Search By ID">
-                        <button class="search_item_button">Search</button>
-                    </div>
-                    <div class="search_items_advanced">
-                        Advanced <i class="fas fa-chevron-down"></i>
-                    </div>
-                </div>
-                <!-- Search Item -->
+                
+                <!-- Report Filter -->
+                <?php include('include/report_filter.php'); ?>
+                <!-- Report Filter -->
 
                 <!-- Inventory Table -->
                 <table class="sales_table inventory_table">
