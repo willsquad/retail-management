@@ -416,8 +416,9 @@ button {
     /* Manager RHS: Content */
     &__content {
         .reporting_buttons_container {
-            border-bottom: 1px solid #cecece;
+            border-bottom: 1px solid #e0e0e0;
             margin-bottom: 30px;
+            padding-bottom: 4px;
         }
         .reporting_nav_button {
             background-color: #2C2F48;
@@ -429,7 +430,7 @@ button {
             font-family: montserrat;
             font-weight: 400;
             text-transform: uppercase;
-            margin-right: 2px;
+            //margin-right: 2px;
 
             &.advanced_report_button {
                 background: #e6e6e6;
@@ -623,6 +624,7 @@ button {
                     line-height: 1.65em;
                     margin-right: -5px;
                     margin-bottom: 10px;
+                    outline: none;
 
                     &.find_items {
                         //border-radius: 50px;
@@ -696,6 +698,9 @@ button {
                     }
                     tr td {
                         //font-size: 16px;
+                        a {
+                            font-weight: 700;
+                        }
                     } 
                 }
 

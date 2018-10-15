@@ -18,7 +18,7 @@
             <div class="manager_rhs__content__body">
                  <!-- Search Item -->
                 <div class="search_items_container">
-                    <input type="search" class="search_items search_report_date" placeholder="Search By Date">
+                    <input type="text" class="search_items search_report_date" placeholder="Search By Date" onfocus="(this.type='date')" onblur="(this.type='text')">
                     <input type="search" class="search_items" placeholder="Search By ID">
                     <button class="search_item_button">Search</button>
                 </div>
@@ -29,7 +29,7 @@
                     <thead>
                         <tr class="sales_table_head">
                             <th>#</th>
-                            <th>Product ID</th>
+                            <th>Transaction ID</th>
                             <th>Subtotal</th>
                             <th>Discounts</th>
                             <th>Total Tax</th> 
@@ -44,7 +44,7 @@
                     <tbody>
                         <tr class="sales_table_row">
                             <td>1</td>
-                            <td>5</td>
+                            <td><a href="#">15</a></td>
                             <td>$1500</td> 
                             <td>$150</td> 
                             <td>$111.38</td> 
@@ -57,7 +57,7 @@
                         </tr>
                         <tr class="sales_table_row">
                             <td>2</td>
-                            <td>15</td>
+                            <td><a href="#">16</a></td>
                             <td>$300</td> 
                             <td>$0</td> 
                             <td>$24.75</td> 
