@@ -18,7 +18,7 @@
             <div class="manager_rhs__content__body">
                  <!-- Search Item -->
                 <div class="search_items_container">
-                    <input type="text" class="search_items search_report_date" placeholder="Search By Date" onfocus="(this.type='date')" onblur="(this.type='text')">
+                    <input type="text" class="search_items search_report_date" placeholder="Search By Date (From)" onfocus="(this.type='date')" onblur="(this.type='text')">
                     <input type="search" class="search_items" placeholder="Search By ID">
                     <button class="search_item_button">Search</button>
                 </div>
