@@ -17,11 +17,33 @@
                 <button class="reporting_nav_button advanced_report_button">Advanced Reporting</button>
             </div>      
 
+            <h5 class="manager_rhs__content__title">Sales</h5>
+
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
-
+                <!-- Icon container -->
+                <div class="icon_container sales">
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="new-sale.php">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Sales Report</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->            
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="new-sale.php">
+                        <i class="fas fa-shopping-bag"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Unit Sales Report</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->            
+                </div>
+                <!-- Icon container -->
             </div>
-            <!-- RHS Content: Body -->          
+            <!-- RHS Content: Body -->       
+
         </div>
         <!-- Manager RHS: Content -->
     </div>
