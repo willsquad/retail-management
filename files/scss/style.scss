@@ -417,14 +417,16 @@ button {
     /* Manager RHS: Content */
     &__content {
         .reporting_buttons_container {
-            border-bottom: 1px solid #e0e0e0;
-            margin-bottom: 30px;
+            //border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 50px;
             padding-bottom: 4px;
+            background-color: #eee;
+            padding: 15px;
         }
-        .reporting_nav_button {
-            background-color: #2C2F48;
-            color: #fff;
-            padding: 10px 15px;
+        .reporting_nav_button {   
+            background-color: #fff;
+            color: #2c2f48;
+            padding: 14px 28px;
             outline: none;
             border: none;
             font-size: 12px;
@@ -433,10 +435,21 @@ button {
             text-transform: uppercase;
             //margin-right: 2px;
 
-            &.advanced_report_button {
-                background: #e6e6e6;
-                color: #2c2f48;
+            &.active {
+                background-color: #2C2F48;
+                color: #fff;
             }
+
+            &.advanced_report_button {
+                //background-color: #e6e6e6;
+                
+            }
+        }
+
+        .report_sections_div {
+            /* display: inline-block;
+            width: 44%;
+            margin-right: 3%; */
         }
         &__title {
             text-transform: uppercase;
@@ -447,11 +460,16 @@ button {
             color: #171717;
             margin-bottom: 40px;
 
+            &.reports_title {
+                // background-color: #ddd;
+                // padding: 15px;
+                // border: none;
+            }
+
             &.new_item_heading {
                 margin-bottom: 15px;
                 flex-grow: 1;
-            }
-            
+            }         
 
             .title_light {
                 font-size: 12px;
@@ -678,7 +696,8 @@ button {
                 }
 
                 .search_items {
-                    background-color: #F0F0F0;
+                    //background-color: #F0F0F0;
+                    background-color: #fff;
                     border: 1px solid #D1D1D1;
                     padding: 8px;
                     width: 250px;

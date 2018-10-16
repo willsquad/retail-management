@@ -13,7 +13,7 @@
         <!-- Manager RHS: Content -->
         <div class="manager_rhs__content">
             <div class="reporting_buttons_container">
-                <button class="reporting_nav_button basic_report_button">Basic Reporting</button>
+                <button class="reporting_nav_button basic_report_button active">Basic Reporting</button>
                 <button class="reporting_nav_button advanced_report_button">Advanced Reporting</button>
             </div>      
 
@@ -93,7 +93,7 @@
 
                         <!-- Icon container link-->
                         <a class="icon_a" href="inventory-reports.php">
-                            <i class="fas fa-truck"></i>
+                            <i class="fas fa-history"></i>
                             <div class="icon_text">
                                 <span class="icon_name">History</span>
                             </div>
