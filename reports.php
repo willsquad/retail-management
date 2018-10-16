@@ -13,8 +13,8 @@
         <!-- Manager RHS: Content -->
         <div class="manager_rhs__content">
             <div class="reporting_buttons_container">
-                <button class="reporting_nav_button basic_report_button active">Basic Reporting</button>
-                <button class="reporting_nav_button advanced_report_button">Advanced Reporting</button>
+                <a href="reports.php" class="reporting_nav_button basic_report_button active">Basic Reporting</a>
+                <a href="reports-advanced.php" class="reporting_nav_button advanced_report_button">Advanced Reporting</a>
             </div>      
 
             <div class="report_sections_div">

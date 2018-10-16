@@ -433,6 +433,8 @@ button {
             font-family: montserrat;
             font-weight: 400;
             text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
             //margin-right: 2px;
 
             &.active {
