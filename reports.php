@@ -75,12 +75,31 @@
                     <div class="icon_container sales">
                         <!-- Icon container link-->
                         <a class="icon_a" href="inventory-reports.php">
-                            <i class="fas fa-truck"></i>
+                            <i class="fas fa-warehouse"></i>
                             <div class="icon_text">
-                                <span class="icon_name">Current Inventory</span>
+                                <span class="icon_name">Assets</span>
                             </div>
                         </a>  
-                        <!-- Icon container link-->                   
+                        <!-- Icon container link-->       
+                        
+                        <!-- Icon container link-->
+                        <a class="icon_a" href="inventory-reports.php">
+                            <i class="fas fa-truck"></i>
+                            <div class="icon_text">
+                                <span class="icon_name">Reorder List</span>
+                            </div>
+                        </a>  
+                        <!-- Icon container link-->
+
+                        <!-- Icon container link-->
+                        <a class="icon_a" href="inventory-reports.php">
+                            <i class="fas fa-truck"></i>
+                            <div class="icon_text">
+                                <span class="icon_name">History</span>
+                            </div>
+                        </a>  
+                        <!-- Icon container link-->   
+                  
                     </div>
                     <!-- Icon container -->
                 </div>
