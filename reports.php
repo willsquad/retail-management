@@ -42,7 +42,27 @@
                 </div>
                 <!-- Icon container -->
             </div>
-            <!-- RHS Content: Body -->       
+            <!-- RHS Content: Body -->    
+
+
+            <h5 class="manager_rhs__content__title">Transactions</h5>
+
+            <!-- RHS Content: Body -->
+            <div class="manager_rhs__content__body">
+                <!-- Icon container -->
+                <div class="icon_container sales">
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="new-sale.php">
+                        <i class="fas fa-dollar-sign"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Transactions Report</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->                   
+                </div>
+                <!-- Icon container -->
+            </div>
+            <!-- RHS Content: Body -->   
 
         </div>
         <!-- Manager RHS: Content -->
