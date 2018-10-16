@@ -18,7 +18,6 @@
             </div>      
 
             <h5 class="manager_rhs__content__title">Sales Report</h5>
-
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
                 <!-- Icon container -->
@@ -46,7 +45,6 @@
 
 
             <h5 class="manager_rhs__content__title">Transactions Report</h5>
-
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
                 <!-- Icon container -->
@@ -66,7 +64,6 @@
 
 
             <h5 class="manager_rhs__content__title">Inventory Reports</h5>
-
             <!-- RHS Content: Body -->
             <div class="manager_rhs__content__body">
                 <!-- Icon container -->
@@ -76,6 +73,24 @@
                         <i class="fas fa-truck"></i>
                         <div class="icon_text">
                             <span class="icon_name">Current Inventory</span>
+                        </div>
+                    </a>  
+                    <!-- Icon container link-->                   
+                </div>
+                <!-- Icon container -->
+            </div>
+            <!-- RHS Content: Body -->   
+
+            <h5 class="manager_rhs__content__title">Register Reports</h5>
+            <!-- RHS Content: Body -->
+            <div class="manager_rhs__content__body">
+                <!-- Icon container -->
+                <div class="icon_container sales">
+                    <!-- Icon container link-->
+                    <a class="icon_a" href="closing-register-reports.php">
+                        <i class="fas fa-inbox"></i>
+                        <div class="icon_text">
+                            <span class="icon_name">Closing Register</span>
                         </div>
                     </a>  
                     <!-- Icon container link-->                   
