@@ -894,14 +894,15 @@ button {
             justify-content: flex-end;
             &__container {
                 button {
-                    background-color: #eee;
+                    background-color: #fff;
+                    border: 1px solid #eee;
                     outline: none;
-                    border:none;
                     padding: 10px 20px;
                     font-size: 11px;
                     font-weight: 600;
                     font-family: "open sans";
                     text-transform: uppercase;
+                    margin-bottom: 5px;
 
                     &:active {
                         position: relative;
@@ -917,11 +918,57 @@ button {
             margin-top: 15px;
 
             &__large {
-                
+                canvas {
+                    background-color: #333;
+                    height: 690px;
+                    width: 100%;
+                    margin-bottom: 30px;
+
+                    @include media-breakpoint-down(sm) {
+                        height: 300px;
+                    }
+                }
             }
 
             &__small {
-                
+                .sales_info_div {
+                    background-color: $info_div_bg;
+                    height: 150px;
+                    margin-bottom: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    text-align:center;
+
+                    .info_title {
+                        font-family: montserrat;
+                        font-size: 15px;
+                        text-transform: capitalize;
+                        font-weight: 500;
+                        padding: 15px;
+                        margin-bottom: 0px;
+                        color: #000;
+                    }
+
+                    .info_value {
+                        font-size: 26px;
+                        font-weight: 700;
+                        background-color: #fff;
+                        flex-grow: 1;
+                        margin-bottom: 0px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $info_div_bg;
+
+                        &.profit {
+                            color: #4caf50;
+                        }
+
+                        svg {
+                            margin-right: 15px;
+                        }
+                    }
+                }
             }
         }
         /* Advanced Dashboard */

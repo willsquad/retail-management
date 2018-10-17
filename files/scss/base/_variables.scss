@@ -26,6 +26,14 @@ $rhs_padding: 25px;
     transform: scaleX(-1);
 }
 
+.max_width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+$lhs_bg: #2C2F48;
+$info_div_bg: #eee;
+
 
 /********* BOOTSTRAP MEDIA-QUERY MIXINS ********* Media Breakpoint  DUBO: down, up, between, only ************
 
