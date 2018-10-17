@@ -886,6 +886,17 @@ button {
             /*** New Sale Page ***/
         }
         /* Content Body */
+
+        /* Advanced Nav Buttons */
+        .advanced_nav_buttons {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            &__container {
+
+            }
+        }
+        /* Advanced Nav Buttons */
     }
     /* Manager RHS: Content */
 

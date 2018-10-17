@@ -17,6 +17,18 @@
                 <a href="reports-advanced.php" class="reporting_nav_button advanced_report_button active">Advanced Reporting</a>
             </div>      
 
+
+            <div class="advanced_nav_buttons">
+                <div class="advanced_nav_buttons__container">
+                    <button>Today</button>
+                    <button>Yesterday</button>
+                    <button>Week</button>
+                    <button>Month</button>
+                    <button>Year</button>
+                    <button>Custom</button>
+                </div>
+            </div>
+
         </div>
         <!-- Manager RHS: Content -->
     </div>
