@@ -80,6 +80,19 @@
                     <!-- advanced_dashboard__small -->
                 </div>
                 <!-- advanced_dashboard -->
+
+
+                <!-- advanced_dashboard -->
+                <div class="row advanced_dashboard">
+                    <div id="reports_line_chart_container" class="col-12">
+                        
+                    </div>
+                    <!-- advanced_dashboard__small -->
+                </div>
+                <!-- advanced_dashboard -->
+
+
+
             </div>
 
         </div>
