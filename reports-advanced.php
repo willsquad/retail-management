@@ -30,8 +30,8 @@
                 </div>
 
                 <div class="row advanced_dashboard">
-                    <div id="reports_bar_chart_container" class="col-12 col-xl-9 advanced_dashboard__large">
-
+                    <div id="reports_chartjs_bar_chart_container" class="col-12 col-xl-9 advanced_dashboard__large">
+                        
                     </div>
                     <div class="col-12 col-xl-3 advanced_dashboard__small">
                         <div class="row">
@@ -84,8 +84,8 @@
 
                 <!-- advanced_dashboard -->
                 <div class="row advanced_dashboard">
-                    <div id="reports_line_chart_container" class="col-12">
-                        
+                    <div id="reports_chartjs_line_chart_container" class="col-12">
+                        <canvas id="line-chart"></canvas>
                     </div>
                     <!-- advanced_dashboard__small -->
                 </div>
