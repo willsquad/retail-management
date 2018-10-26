@@ -31,7 +31,7 @@
 
                 <div class="row advanced_dashboard">
                     <div id="reports_chartjs_bar_chart_container" class="col-12 col-xl-9 advanced_dashboard__large">
-                        
+                        <canvas id="bar-chart"></canvas>
                     </div>
                     <div class="col-12 col-xl-3 advanced_dashboard__small">
                         <div class="row">
